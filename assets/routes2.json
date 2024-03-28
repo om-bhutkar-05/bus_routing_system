@@ -9,8 +9,8 @@
         {
             "id": "2",
             "place_name": "Ma Na Pa",
-            "latitude": "39.5675897",
-            "longitude": "2.6548577"
+            "latitude": "18.516726",
+            "longitude": "73.856255"
         },
         {
             "id": "3",
@@ -33,8 +33,8 @@
         {
             "id": "6",
             "place_name": "Katraj (Vai Kothrud Depo)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.501805",
+            "longitude": "73.809360"
         },
         {
             "id": "7",
@@ -45,8 +45,8 @@
         {
             "id": "8",
             "place_name": "Hinjawadi Maan Phase 3 (Vai Kothrud Depo)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.588400",
+            "longitude": "73.682390"
         },
         {
             "id": "9",
@@ -75,14 +75,14 @@
         {
             "id": "13",
             "place_name": "Galinde Path",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4846",
+            "longitude": "73.8103"
         },
         {
             "id": "14",
             "place_name": "Pimplegurav",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5866",
+            "longitude": "73.8134"
         },
         {
             "id": "15",
@@ -99,8 +99,8 @@
         {
             "id": "17",
             "place_name": "Keshavnagar",
-            "latitude": "20.0836238",
-            "longitude": "76.8797386"
+            "latitude": "18.5324",
+            "longitude": "73.9441"
         },
         {
             "id": "18",
@@ -117,20 +117,20 @@
         {
             "id": "20",
             "place_name": "Appa Balawant Chowk",
-            "latitude": null,
-            "longitude": null
+            "latitude": "19.172670",
+            "longitude": "72.962080"
         },
         {
             "id": "21",
             "place_name": "Vasantdada Putala Sangvi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.059986",
+            "longitude": "74.486023"
         },
         {
             "id": "22",
             "place_name": "Mhalungegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5746",
+            "longitude": "73.7554"
         },
         {
             "id": "23",
@@ -141,14 +141,14 @@
         {
             "id": "24",
             "place_name": "Shree Control",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.441833",
+            "longitude": "73.812157"
         },
         {
             "id": "25",
             "place_name": "Raykarmala",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.428293",
+            "longitude": "73.811184"
         },
         {
             "id": "26",
@@ -159,14 +159,14 @@
         {
             "id": "27",
             "place_name": "Saritanagari",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4915",
+            "longitude": "73.8308"
         },
         {
             "id": "28",
             "place_name": "Shaniwarwada Stand",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.520187",
+            "longitude": "73.851279"
         },
         {
             "id": "29",
@@ -219,14 +219,14 @@
         {
             "id": "37",
             "place_name": "Kalpataru",
-            "latitude": "-2.409288",
-            "longitude": "120.6657125"
+            "latitude": "18.6008",
+            "longitude": "73.8153"
         },
         {
             "id": "38",
             "place_name": "Indoorance System",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.75504",
+            "longitude": "73.808585"
         },
         {
             "id": "39",
@@ -237,8 +237,8 @@
         {
             "id": "40",
             "place_name": "Indoorance System Chakan Mhalunge",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.75504",
+            "longitude": "73.808585"
         },
         {
             "id": "41",
@@ -249,8 +249,8 @@
         {
             "id": "42",
             "place_name": "Nehrunagar Depo",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.6307",
+            "longitude": "73.8250"
         },
         {
             "id": "43",
@@ -267,8 +267,8 @@
         {
             "id": "45",
             "place_name": "Dapodi Mantri Niketan",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5801",
+            "longitude": "73.8304"
         },
         {
             "id": "46",
@@ -279,14 +279,14 @@
         {
             "id": "47",
             "place_name": "Kamalpark",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5938",
+            "longitude": "73.9038"
         },
         {
             "id": "48",
-            "place_name": "Pimplenilakh",
-            "latitude": null,
-            "longitude": null
+            "place_name": "Pimple nilakh",
+            "latitude": "18.5790",
+            "longitude": "73.7860"
         },
         {
             "id": "49",
@@ -308,21 +308,21 @@
         },
         {
             "id": "52",
-            "place_name": "Vadgaonsheri",
-            "latitude": null,
-            "longitude": null
+            "place_name": "Vadgaon sheri",
+            "latitude": "18.5513",
+            "longitude": "73.9210"
         },
         {
             "id": "53",
             "place_name": "Ma Na Pa (Via Shubham)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.516726",
+            "longitude": "73.856255"
         },
         {
             "id": "54",
             "place_name": "Vadgaonsheri (Via Shubham)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5513",
+            "longitude": "73.9210"
         },
         {
             "id": "55",
@@ -333,20 +333,20 @@
         {
             "id": "56",
             "place_name": "Vadgaon Sheri",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5513",
+            "longitude": "73.9210"
         },
         {
             "id": "57",
             "place_name": "Ma Na Pa (Via Anand Park)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.516726",
+            "longitude": "73.856255"
         },
         {
             "id": "58",
             "place_name": "Vadgaon Sheri (Via Anand Park)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5513",
+            "longitude": "73.9210"
         },
         {
             "id": "59",
@@ -387,14 +387,14 @@
         {
             "id": "65",
             "place_name": "Vadegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.466921",
+            "longitude": "73.826561"
         },
         {
             "id": "66",
-            "place_name": "Shewalwadi",
-            "latitude": null,
-            "longitude": null
+            "place_name": "Shewalewadi",
+            "latitude": "18.4500",
+            "longitude": "73.9411"
         },
         {
             "id": "67",
@@ -417,14 +417,14 @@
         {
             "id": "70",
             "place_name": "Upper Depo",
-            "latitude": "0.3198341",
-            "longitude": "32.6005774"
+            "latitude": "18.4611",
+            "longitude": "73.8719"
         },
         {
             "id": "71",
             "place_name": "Lake Town Society",
-            "latitude": "46.7612525",
-            "longitude": "-68.47460123690169"
+            "latitude": "18.4577",
+            "longitude": "73.8632"
         },
         {
             "id": "72",
@@ -441,32 +441,32 @@
         {
             "id": "74",
             "place_name": "Galinde Path (Vai Nal Stop)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4846",
+            "longitude": "73.8103"
         },
         {
             "id": "75",
             "place_name": "Pune Station (Vai Nal Stop)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5285",
+            "longitude": "73.8744"
         },
         {
             "id": "76",
             "place_name": "Galinde Path (Vai Mhatre Pul)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4846",
+            "longitude": "73.8103"
         },
         {
             "id": "77",
             "place_name": "Pune Station (Vai Mhatre Pul)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5285",
+            "longitude": "73.8744"
         },
         {
             "id": "78",
             "place_name": "Sai Sayajinagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4913",
+            "longitude": "73.7925"
         },
         {
             "id": "79",
@@ -507,8 +507,8 @@
         {
             "id": "85",
             "place_name": "NDA Golmarket",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4666",
+            "longitude": "73.7647"
         },
         {
             "id": "86",
@@ -519,8 +519,8 @@
         {
             "id": "87",
             "place_name": "Gokhalenagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5292",
+            "longitude": "73.8271"
         },
         {
             "id": "88",
@@ -537,32 +537,32 @@
         {
             "id": "90",
             "place_name": "Munjabavasti",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5866",
+            "longitude": "73.8963"
         },
         {
             "id": "91",
             "place_name": "Dhanorigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.59116256786",
+            "longitude": "73.895598448452"
         },
         {
             "id": "92",
             "place_name": "Pune Station (Via Dhanori)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5285",
+            "longitude": "73.8744"
         },
         {
             "id": "93",
             "place_name": "Lohgaon (Via Dhanori)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5945",
+            "longitude": "73.9276"
         },
         {
             "id": "94",
             "place_name": "Dadachi Padal",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5932",
+            "longitude": "73.9417"
         },
         {
             "id": "95",
@@ -573,20 +573,20 @@
         {
             "id": "96",
             "place_name": "Koregaon Bhima",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.57718",
+            "longitude": "74.23445"
         },
         {
             "id": "97",
             "place_name": "Pabal Phata",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.39915",
+            "longitude": "73.7773"
         },
         {
             "id": "98",
             "place_name": "Mundhwagaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5330",
+            "longitude": "73.9330"
         },
         {
             "id": "99",
@@ -597,20 +597,20 @@
         {
             "id": "100",
             "place_name": "Warje Malwadi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4739061",
+            "longitude": "73.8009647"
         },
         {
             "id": "101",
             "place_name": "Kendurgaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.7823",
+            "longitude": "74.0385"
         },
         {
             "id": "102",
             "place_name": "Kharadi Gaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5471",
+            "longitude": "73.9470"
         },
         {
             "id": "103",
@@ -621,80 +621,80 @@
         {
             "id": "104",
             "place_name": "Ma Na Pa (Vai Koregaon Park)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5238",
+            "longitude": "73.8554"
         },
         {
             "id": "105",
             "place_name": "Keshavnagar (Vai Koregaon Park)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5324",
+            "longitude": "73.9441"
         },
         {
             "id": "106",
             "place_name": "Kondhwa Hospital",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.477091",
+            "longitude": "73.890686"
         },
         {
             "id": "107",
             "place_name": "Kondhwa Gate",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.477091",
+            "longitude": "73.890686"
         },
         {
             "id": "108",
             "place_name": "Krushnanagar Mohammadwadi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4763",
+            "longitude": "73.9198"
         },
         {
             "id": "109",
             "place_name": "Swargate (Vai NIBM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5018",
+            "longitude": "73.862686"
         },
         {
             "id": "110",
-            "place_name": "Swrgate",
-            "latitude": null,
-            "longitude": null
+            "place_name": "Swargate",
+            "latitude": "18.501059",
+            "longitude": "73.862686"
         },
         {
             "id": "111",
             "place_name": "Krushnanagar Mohammadwadi (Vai NIBM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4763",
+            "longitude": "73.9198"
         },
         {
             "id": "112",
             "place_name": "Mahammad Wadi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4763",
+            "longitude": "73.9198"
         },
         {
             "id": "113",
             "place_name": "Azadnagar",
-            "latitude": "23.153855749999998",
-            "longitude": "76.28473681091205"
+            "latitude": "18.4859",
+            "longitude": "73.9059"
         },
         {
             "id": "114",
             "place_name": "Siddharthnagar",
-            "latitude": "27.251172349999997",
-            "longitude": "82.87165278078035"
+            "latitude": "18.5146",
+            "longitude": "73.7735"
         },
         {
             "id": "115",
             "place_name": "Salunke Vihar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4800",
+            "longitude": "73.9044"
         },
         {
             "id": "116",
             "place_name": "Vadachiwadi",
-            "latitude": "17.9477073",
-            "longitude": "75.4788101"
+            "latitude": "18.4386",
+            "longitude": "73.9169"
         },
         {
             "id": "117",
@@ -705,26 +705,26 @@
         {
             "id": "118",
             "place_name": "Narhegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4465",
+            "longitude": "73.8264"
         },
         {
             "id": "119",
             "place_name": "Natraj Stand",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5005",
+            "longitude": "73.8579"
         },
         {
             "id": "120",
             "place_name": "Na Ta Wadi",
-            "latitude": "17.051694",
-            "longitude": "76.9912575"
+            "latitude": "18.5348",
+            "longitude": "73.8489"
         },
         {
             "id": "121",
             "place_name": "SRP Camp",
-            "latitude": "19.146435150000002",
-            "longitude": "72.86339569102216"
+            "latitude": "18.5246",
+            "longitude": "73.9010"
         },
         {
             "id": "122",
@@ -735,8 +735,8 @@
         {
             "id": "123",
             "place_name": "Theur Factory",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5253",
+            "longitude": "74.0440"
         },
         {
             "id": "124",
@@ -783,20 +783,20 @@
         {
             "id": "131",
             "place_name": "Devachi Uruli",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4531886853356",
+            "longitude": "73.9565205802312"
         },
         {
             "id": "132",
             "place_name": "Bhansali Complex",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.466921",
+            "longitude": "73.826561"
         },
         {
             "id": "133",
             "place_name": "Vadkigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4660",
+            "longitude": "73.8246"
         },
         {
             "id": "134",
@@ -807,14 +807,14 @@
         {
             "id": "135",
             "place_name": "Mohammadwadigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4974",
+            "longitude": "73.8510"
         },
         {
             "id": "136",
             "place_name": "Undrigaon",
-            "latitude": "19.6266216",
-            "longitude": "79.697485"
+            "latitude": "18.4508",
+            "longitude": "73.9160"
         },
         {
             "id": "137",
@@ -831,14 +831,14 @@
         {
             "id": "139",
             "place_name": "Swargate (Vai Ram Takedi)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.49968545",
+            "longitude": "73.85688275180982"
         },
         {
             "id": "140",
             "place_name": "Mahammad Wadi  (Vai Ram Takedi)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4974",
+            "longitude": "73.8510"
         },
         {
             "id": "141",
@@ -849,26 +849,26 @@
         {
             "id": "142",
             "place_name": "Sadesatranali",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5127",
+            "longitude": "73.9499"
         },
         {
             "id": "143",
             "place_name": "Mahatma Gandhi Stand",
-            "latitude": "12.12122795",
-            "longitude": "76.68211463284621"
+            "latitude": "18.5051",
+            "longitude": "73.8784"
         },
         {
             "id": "144",
             "place_name": "Ganpati Matha",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4757",
+            "longitude": "73.7957"
         },
         {
             "id": "145",
             "place_name": "Vishalnagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5844",
+            "longitude": "73.7809"
         },
         {
             "id": "146",
@@ -879,20 +879,20 @@
         {
             "id": "147",
             "place_name": "Sahkarnagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4835",
+            "longitude": "73.8439"
         },
         {
             "id": "148",
             "place_name": "Swargate Depo",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5004",
+            "longitude": "73.8615"
         },
         {
             "id": "149",
             "place_name": "Chintamani Dnyanpith",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.4557",
+            "longitude": "73.8392"
         },
         {
             "id": "150",
@@ -903,26 +903,26 @@
         {
             "id": "151",
             "place_name": "Gujarwadi",
-            "latitude": "19.0655048",
-            "longitude": "76.220119"
+            "latitude": "18.445089",
+            "longitude": "73.868980"
         },
         {
             "id": "152",
             "place_name": "Jambhulwadi",
-            "latitude": "16.1064114",
-            "longitude": "74.3877143"
+            "latitude": "18.4268",
+            "longitude": "73.83977."
         },
         {
             "id": "153",
             "place_name": "Ammunition Factory",
-            "latitude": "32.558792",
-            "longitude": "34.97797009859532"
+            "latitude": "18.5641",
+            "longitude": "73.8602"
         },
         {
             "id": "154",
             "place_name": "HEMRL Company",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5415",
+            "longitude": "73.7925"
         },
         {
             "id": "155",
@@ -933,32 +933,32 @@
         {
             "id": "156",
             "place_name": "Paudgaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.52368",
+            "longitude": "73.616638"
         },
         {
             "id": "157",
             "place_name": "Khulewadi",
-            "latitude": "17.8971256",
-            "longitude": "74.8218191"
+            "latitude": "18.5699",
+            "longitude": "73.9319"
         },
         {
             "id": "158",
             "place_name": "Maharashtra Housing Board Samtanagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.5618",
+            "longitude": "73.8967"
         },
         {
             "id": "159",
             "place_name": "Charholigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.6856",
+            "longitude": "73.9441"
         },
         {
             "id": "160",
             "place_name": "Banergaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "18.559658",
+            "longitude": "73.779938"
         },
         {
             "id": "161",
@@ -969,8 +969,8 @@
         {
             "id": "162",
             "place_name": "Dehugaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "163",
@@ -981,8 +981,8 @@
         {
             "id": "164",
             "place_name": "Bahulgaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "165",
@@ -993,8 +993,8 @@
         {
             "id": "166",
             "place_name": "Kondhwagate",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "167",
@@ -1011,44 +1011,44 @@
         {
             "id": "169",
             "place_name": "Warje Hanuman Chowk",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "170",
             "place_name": "Bhosarigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "171",
             "place_name": "Shaninagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "172",
             "place_name": "Kalyangaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "173",
             "place_name": "Rahatwadegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "174",
             "place_name": "Avsarwadi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "175",
             "place_name": "Kondhanpur",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "176",
@@ -1065,8 +1065,8 @@
         {
             "id": "178",
             "place_name": "Khadakwasla Dharan",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "179",
@@ -1083,56 +1083,56 @@
         {
             "id": "181",
             "place_name": "Katraj Ladies Special",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "182",
             "place_name": "Shivajinagar Ladies Special",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "183",
             "place_name": "Bhilarewadi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "184",
             "place_name": "Sachchai Mata Mandir",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "185",
             "place_name": "Taljai Pathar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "186",
             "place_name": "Katraj Night Service",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "187",
             "place_name": "Shivajinagar Night Service",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "188",
             "place_name": "Pimprigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "189",
             "place_name": "Gavhanevasti Bhosari",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "190",
@@ -1149,8 +1149,8 @@
         {
             "id": "192",
             "place_name": "Dy Patil College Wadgaonmawal",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "193",
@@ -1179,8 +1179,8 @@
         {
             "id": "197",
             "place_name": "Gharkul Vasahat Chikhli",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "198",
@@ -1191,8 +1191,8 @@
         {
             "id": "199",
             "place_name": "Kasarsai Karkhana",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "200",
@@ -1203,26 +1203,26 @@
         {
             "id": "201",
             "place_name": "Mhalunge MIDC",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "202",
             "place_name": "Moshigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "203",
             "place_name": "Pune Station (Vai Alandi Road)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "204",
             "place_name": "Bhosari (Vai Alandi Road)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "205",
@@ -1239,14 +1239,14 @@
         {
             "id": "207",
             "place_name": "Gharkul Vasahat Chikali",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "208",
             "place_name": "Krishanagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "209",
@@ -1257,14 +1257,14 @@
         {
             "id": "210",
             "place_name": "Mahalungegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "211",
             "place_name": "Pimpale Gurav",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "212",
@@ -1275,8 +1275,8 @@
         {
             "id": "213",
             "place_name": "Vasasantdada Putla Sangvi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "214",
@@ -1287,8 +1287,8 @@
         {
             "id": "215",
             "place_name": "Gharkul Vasahat Chikhali",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "216",
@@ -1299,38 +1299,38 @@
         {
             "id": "217",
             "place_name": "Rupeenagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "218",
             "place_name": "Pune Station (Via Yarwada)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "219",
             "place_name": "Dehugaon (Via Yarwada)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "220",
             "place_name": "Pune Station (Via Wakdevadi)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "221",
             "place_name": "Dehugaon (Via Wakdevadi)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "222",
             "place_name": "Rahatnigaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "223",
@@ -1347,20 +1347,20 @@
         {
             "id": "225",
             "place_name": "Indrayaninagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "226",
             "place_name": "Santnagar MIDC Police Station",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "227",
             "place_name": "Mohannagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "228",
@@ -1383,8 +1383,8 @@
         {
             "id": "231",
             "place_name": "YCM Hospital (Via Moshi)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "232",
@@ -1395,14 +1395,14 @@
         {
             "id": "233",
             "place_name": "Alandi (Via Moshi)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "234",
             "place_name": "Kiwalegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "235",
@@ -1413,74 +1413,74 @@
         {
             "id": "236",
             "place_name": "Bhapkar Petrol Pump",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "237",
             "place_name": "Pune Station (Via Yerwada)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "238",
             "place_name": "Bhakti Shakti (Via Yerwada)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "239",
             "place_name": "Gharkul Vasahat",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "240",
             "place_name": "Wakad pul",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "241",
             "place_name": "Wakad Pul",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "242",
             "place_name": "Warje Malwadi (Vai YCM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "243",
             "place_name": "Bhakti Shakti (Vai YCM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "244",
             "place_name": "Shewalwadi (Vai YCM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "245",
             "place_name": "Katraj (Vai YCM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "246",
             "place_name": "Nehrunagar Depo (Vai YCM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "247",
             "place_name": "Sambhajinagar (Vai YCM)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "248",
@@ -1497,8 +1497,8 @@
         {
             "id": "250",
             "place_name": "Sanaswadi Nandoshi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "251",
@@ -1509,8 +1509,8 @@
         {
             "id": "252",
             "place_name": "Sinhgad Paytha",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "253",
@@ -1521,14 +1521,14 @@
         {
             "id": "254",
             "place_name": "Dhayari Maruti Mandi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "255",
             "place_name": "Osade Phata",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "256",
@@ -1545,14 +1545,14 @@
         {
             "id": "258",
             "place_name": "Pandavnagar Senapati Bapat Road",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "259",
             "place_name": "Niljyoti",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "260",
@@ -1563,14 +1563,14 @@
         {
             "id": "261",
             "place_name": "Ghulenagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "262",
             "place_name": "Ghulenager",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "263",
@@ -1587,44 +1587,44 @@
         {
             "id": "265",
             "place_name": "Sukhsagarnagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "266",
             "place_name": "Kalyaninagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "267",
             "place_name": "Agalambegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "268",
             "place_name": "Ghotawadegaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "269",
             "place_name": "Shasakiya Vishramgruha Paudgaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "270",
             "place_name": "Sheregaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "271",
             "place_name": "Mugawade",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "272",
@@ -1635,20 +1635,20 @@
         {
             "id": "273",
             "place_name": "Popularnagar",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "274",
             "place_name": "Cipla Center",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "275",
             "place_name": "Kondhur Phata",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "276",
@@ -1659,14 +1659,14 @@
         {
             "id": "277",
             "place_name": "Khothrud Stand",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "278",
             "place_name": "Mohakarwadi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "279",
@@ -1677,44 +1677,44 @@
         {
             "id": "280",
             "place_name": "Deccan Gymkhana (Vai Bhagvatinagar)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "281",
             "place_name": "Sutarwadi (Vai Bhagvatinagar)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "282",
             "place_name": "Susgaon",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "283",
             "place_name": "HMR Company",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "284",
             "place_name": "Deccan Gymkhana (Vai Sai Chowk)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "285",
             "place_name": "Sutarwadi (Vai Sai Chowk)",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "286",
             "place_name": "Balewadi Mhalunge Phata",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "287",
@@ -1725,14 +1725,14 @@
         {
             "id": "288",
             "place_name": "Mhatobachi Alandi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "289",
             "place_name": "Ishanyanagari",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "290",
@@ -1743,8 +1743,8 @@
         {
             "id": "291",
             "place_name": "Gharkul Vasahat Warje",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "292",
@@ -1767,8 +1767,8 @@
         {
             "id": "295",
             "place_name": "Sainagar Mamurdi",
-            "latitude": null,
-            "longitude": null
+            "latitude": "",
+            "longitude": ""
         },
         {
             "id": "296",
