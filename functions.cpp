@@ -1,4 +1,5 @@
 #include"header.hpp"
+
 Graph::Graph() {}
 
 Graph::~Graph() {
@@ -12,6 +13,9 @@ void Graph::addVertex(const string& id, const string& place_name, double latitud
         newVertex->place_name = place_name;
         newVertex->latitude = latitude;
         newVertex->longitude = longitude;
+        newVertex->distance = numeric_limits<double>::infinity(); // Initialize distance to infinity
+        newVertex->previous = ""; // Initialize previous vertex as empty string
+        newVertex->visited = false; // Initialize visited flag as false
         vertices[id] = newVertex;
     }
 }
@@ -32,6 +36,16 @@ Vertex* Graph::getVertex(const string& id) {
     return nullptr;
 }
 
+string Graph::getVertexIdByPlaceName(const string& placeName) {
+    for (auto& pair : vertices) {
+        if (pair.second->place_name == placeName) {
+            return pair.first;
+        }
+    }
+    return ""; // Return empty string if place name not found
+}
+
+
 void Graph::display() {
     for (auto& pair : vertices) {
         cout << "Vertex ID: " << pair.second->id << endl;
@@ -51,4 +65,58 @@ void Graph::clear() {
         delete pair.second;
     }
     vertices.clear();
+}
+
+
+void Graph::dijkstra(const string& source) {
+    // Reset distances and visited flags
+    for (auto& pair : vertices) {
+        pair.second->distance = numeric_limits<double>::infinity();
+        pair.second->visited = false;
+        pair.second->previous = "";
+    }
+
+    // Set distance of source vertex to 0
+    vertices[source]->distance = 0;
+
+    priority_queue<pair<double, string>, vector<pair<double, string>>, greater<pair<double, string>>> pq;
+    pq.push(make_pair(0, source));
+
+    while (!pq.empty()) {
+        string current = pq.top().second;
+        pq.pop();
+
+        if (vertices[current]->visited) continue;
+
+        vertices[current]->visited = true;
+
+        for (auto& connection : vertices[current]->connections) {
+            string neighbor = connection.first;
+            double weight = connection.second;
+
+            if (!vertices[neighbor]->visited && vertices[current]->distance + weight < vertices[neighbor]->distance) {
+                vertices[neighbor]->distance = vertices[current]->distance + weight;
+                vertices[neighbor]->previous = current;
+                pq.push(make_pair(vertices[neighbor]->distance, neighbor));
+            }
+        }
+    }
+}
+
+list<string> Graph::shortestPath(const string& source, const string& destination) {
+    dijkstra(source);
+
+    list<string> path;
+    string current = destination;
+
+    while (current != "" && current != source) {
+        path.push_front(current);
+        current = vertices[current]->previous;
+    }
+
+    if (current == source) {
+        path.push_front(source);
+    }
+
+    return path;
 }
