@@ -28,6 +28,8 @@ public:
     void addVertex(const string& id, const string& place_name, double latitude, double longitude);
     void addEdge(const string& source, const string& destination, double weight);
     Vertex* getVertex(const string& id);
+    string trim(const string& str);
+    bool compareIgnoreCase(const string& str1, const string& str2);
     string getVertexIdByPlaceName(const string& placeName); // Declaration of the new method
     void display();
     void clear();

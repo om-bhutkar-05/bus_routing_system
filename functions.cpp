@@ -36,6 +36,26 @@ Vertex* Graph::getVertex(const string& id) {
     return nullptr;
 }
 
+// Trim function to remove trailing spaces
+string trim(const string& str) {
+    size_t first = str.find_first_not_of(' ');
+    if (string::npos == first) {
+        return str;
+    }
+    size_t last = str.find_last_not_of(' ');
+    return str.substr(first, (last - first + 1));
+}
+
+// Case-insensitive string comparison
+bool compareIgnoreCase(const string& str1, const string& str2) {
+    if (str1.length() != str2.length()) {
+        return false;
+    }
+    return equal(str1.begin(), str1.end(), str2.begin(), [](char a, char b) {
+        return tolower(a) == tolower(b);
+    });
+}
+
 string Graph::getVertexIdByPlaceName(const string& placeName) {
     for (auto& pair : vertices) {
         if (pair.second->place_name == placeName) {

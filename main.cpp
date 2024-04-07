@@ -30,12 +30,21 @@ int main() {
     string sourceName, destinationName;
     cout << "Enter source place name: ";
     getline(cin, sourceName);
+    sourceName = trim(sourceName); // Trim trailing spaces
     cout << "Enter destination place name: ";
     getline(cin, destinationName);
+    destinationName = trim(destinationName); // Trim trailing spaces
 
     // Get corresponding vertex IDs
-    string sourceId = graph.getVertexIdByPlaceName(sourceName);
-    string destinationId = graph.getVertexIdByPlaceName(destinationName);
+    string sourceId, destinationId;
+    for (const auto& place : data["places"]) {
+        if (compareIgnoreCase(place["place_name"], sourceName)) {
+            sourceId = place["id"];
+        }
+        if (compareIgnoreCase(place["place_name"], destinationName)) {
+            destinationId = place["id"];
+        }
+    }
 
     // Check if both source and destination IDs are valid
     if (sourceId.empty() || destinationId.empty()) {
