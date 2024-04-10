@@ -10,6 +10,8 @@ using namespace std;
 struct Node {
     int id;
     string name;
+    string lat;
+    string lon;
 };
 
 class Graph {

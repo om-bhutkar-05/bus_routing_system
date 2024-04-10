@@ -21,7 +21,7 @@ int main() {
     destination = graph.getNodeID(p2);
     vector<double> shortestDistances = graph.dijkstra(source);
     vector<Node> nodes = graph.getNodes();
-
+    writeLatLongToFile(nodes, source, destination);
     if (shortestDistances[destination - 1] == numeric_limits<double>::infinity()) {
         cout << "No path exists between the source and destination nodes." << endl;
     } else {

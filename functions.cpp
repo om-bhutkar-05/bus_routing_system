@@ -10,6 +10,18 @@ string rm(string str) {
 
     return str;
 }
+void writeLatLongToFile(const vector<Node>& nodes, int sourceID, int destID) {
+    ofstream outFile("latlng.txt");
+
+    if (outFile.is_open()) {
+        outFile << "lat:" << nodes[sourceID - 1].lat << " long:" << nodes[sourceID - 1].lon <<" ";
+        outFile << "lat:" << nodes[destID - 1].lat << " long:" << nodes[destID - 1].lon << endl;
+        outFile.close();
+        cout << "Latitude and longitude written to lat_long.txt successfully." << endl;
+    } else {
+        cerr << "Unable to open file 'lat_long.txt' for writing." << endl;
+    }
+}
 Graph::Graph(int vertices) {
     V = vertices;
     adjMatrix.resize(V, vector<double>(V, numeric_limits<double>::infinity()));
@@ -34,7 +46,9 @@ void Graph::populateFromJSON(const string& filename) {
         for (const auto& place : data["places"]) {
             int id = stoi(place["id"].get<string>());
             string name = place["place_name"].get<string>();
-            nodes[id - 1] = {id, name};
+            string lat = place["latitude"].get<string>();
+            string lon = place["longitude"].get<string>();
+            nodes[id - 1] = {id, name,lat,lon};
         }
 
         for (const auto& connection : data["connections"]) {
