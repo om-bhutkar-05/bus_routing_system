@@ -1,1 +1,299 @@
-lat:18.5233 long:73.854 lat:18.4997 long:73.8569 
+Shortest Distances from Node 1:
+To Hinjawadi Maan Phase 3: 0
+To Ma Na Pa: 26.4
+To Kondhwa Bk: 37.9
+To Kothrud Depot: 38
+To Lohgaon: 39.9
+To Katraj (Vai Kothrud Depo): 36.6
+To Katraj: 33.7
+To Hinjawadi Maan Phase 3 (Vai Kothrud Depo): 70.3
+To Swargate: 30.5
+To DSK Vishwa: 43.1
+To Deccan Gymkhana: 44.2
+To Balewadi Depot: 39.9
+To Galinde Path: inf
+To Pimplegurav: 39
+To Pune Station: 26.6
+To Sutardara: 38.9
+To Keshavnagar: 38
+To Bhekrainagar: 39.2
+To Mandai: 41.4
+To Appa Balawant Chowk: 52.3
+To Vasantdada Putala Sangvi: 45.35
+To Mhalungegaon: 38.9
+To Khadki Bazar: 37.2
+To Shree Control: 42.2
+To Raykarmala: 44
+To Dhayari Maruti Mandir: 42.5
+To Saritanagari: 35.5
+To Shaniwarwada Stand: 33.3
+To Shaniwarwada: 39.6
+To Marketyard: 33.6
+To Venutai Chavan College: 39.9
+To Suncity: 36.5
+To Vadgaon Bk: 37.5
+To Nanded: 41.7
+To Alandi: 33.5
+To Vishrantwadi: 35.1
+To Kalpataru: 55.3
+To Indoorance System: 47.2
+To Bhosari: 23.7
+To Indoorance System Chakan Mhalunge: 67
+To Bhosari Terminal: 42
+To Nehrunagar Depo: 20.2
+To Chinchwadgaon: 14.2
+To Bhakti Shakti: 18.8
+To Dapodi Mantri Niketan: 38.6
+To Bopkhel: 45.4
+To Kamalpark: inf
+To Pimple nilakh: 45.6
+To Upper Depot: 38
+To Yewalewadi: 39.4
+To Shivajinagar: 34.8
+To Vadgaon sheri: 37.5
+To Ma Na Pa (Via Shubham): 51.5
+To Vadgaonsheri (Via Shubham): 40.4
+To Shubham Society Nagar Road: 37.5
+To Vadgaon Sheri: inf
+To Ma Na Pa (Via Anand Park): inf
+To Vadgaon Sheri (Via Anand Park): 41.2
+To Anand Park: 39.2
+To Sainathnagar: inf
+To Sainath nagar: 40.4
+To Vidyanagar: 35.3
+To Wadebolhai: 52.2
+To Kesnand Phata: 41.9
+To Vadegaon: 54.1
+To Shewalewadi: 40.1
+To VIT College: 46.7
+To Vit College: inf
+To Pune Vidhyapeeth: 47.7
+To Upper Depo: 35.7
+To Lake Town Society: 44.4
+To Khandoba Mandir: 36.5
+To Ghotawade Phata: 58.4
+To Galinde Path (Vai Nal Stop): 37.9
+To Pune Station (Vai Nal Stop): inf
+To Galinde Path (Vai Mhatre Pul): 37.9
+To Pune Station (Vai Mhatre Pul): inf
+To Sai Sayajinagar: 40.5
+To Kumbre Park: inf
+To Kothrud Stand: 35.6
+To Kumbare Park: 39.5
+To Gujrat Colony: 36.1
+To D2 Circle: 50
+To Sutarwadi Pashan: 39.6
+To NDA Golmarket: inf
+To NDA Gol Market: 47.6
+To Gokhalenagar: 35.05
+To Nhavi Sandas: 64.6
+To Pimpri: 43.5
+To Munjabavasti: 38.7
+To Dhanorigaon: 38
+To Pune Station (Via Dhanori): 55.6
+To Lohgaon (Via Dhanori): 42.3
+To Dadachi Padal: 41.9
+To Talegaon Dhamdhere: 66.9
+To Koregaon Bhima: 55.4
+To Pabal Phata: 67.2
+To Mundhwagaon: 37.3
+To Vimannagar: 36.1
+To Warje Malwadi: 36.3
+To Kendurgaon: 69.6
+To Kharadi Gaon: 37.6
+To Hadapsar Gadital: 36.3
+To Ma Na Pa (Vai Koregaon Park): 50
+To Keshavnagar (Vai Koregaon Park): 38.4
+To Kondhwa Hospital: 38.6
+To Kondhwa Gate: 45.4
+To Krushnanagar Mohammadwadi: 37.5
+To Swargate (Vai NIBM): 49.6
+To Swargate: inf
+To Krushnanagar Mohammadwadi (Vai NIBM): inf
+To Mahammad Wadi: 39.9
+To Azadnagar: 36.1
+To Siddharthnagar: 36.3
+To Salunke Vihar: 35.8
+To Vadachiwadi: 44.7
+To swargate: 58.9
+To Narhegaon: 36.2
+To Natraj Stand: 47.2
+To Na Ta Wadi: 34.8
+To SRP Camp: 47.1
+To Kondhwa Kh: 46.3
+To Theur Factory: 116.5
+To Sarasbaug: 88.6
+To Theur: 51
+To Fursungi: 42.3
+To Padmawati: 36.7
+To Manjari Kh: 44.6
+To Jspm College: 40.8
+To JSPM college: 41
+To Devachi Uruli: 43
+To Bhansali Complex: 39
+To Vadkigaon: 45
+To Trinity College: 41.1
+To Mohammadwadigaon: 42.3
+To Undrigaon: 44.3
+To Uruli Kanchan: 57.1
+To Holkarwadi: 44.8
+To Swargate (Vai Ram Takedi): 53
+To Mahammad Wadi  (Vai Ram Takedi): 43.6
+To Manjari Bk: 47.3
+To Sadesatranali: 39.3
+To Mahatma Gandhi Stand: 33.5
+To Ganpati Matha: 55.5
+To Vishalnagar: 63.1
+To Saswad: 59.3
+To Sahkarnagar: 36.1
+To Swargate Depo: 39.5
+To Chintamani Dnyanpith: 38
+To Bharati Vidyapeeth: 37.5
+To Gujarwadi: 37.5
+To Jambhulwadi: 38.7
+To Ammunition Factory: 40
+To HEMRL Company: 42.7
+To Marnewadi: 67.1
+To Paudgaon: 69.2
+To Khulewadi: 39.9
+To Maharashtra Housing Board Samtanagar: 51.7
+To Charholigaon: 47.5
+To Banergaon: 37.4
+To Someshwarwadi: 34.5
+To Dehugaon: 43
+To Nigdi: 34.5
+To Bahulgaon: 64.4
+To Dhankawadi: 37.1
+To Kondhwagate: 45.6
+To Kothrud Depo: 50.2
+To Khamboli: 78.8
+To Warje Hanuman Chowk: 36.3
+To Bhosarigaon: 60.6
+To Shaninagar: 34.8
+To Kalyangaon: 64.5
+To Rahatwadegaon: 60.5
+To Avsarwadi: 61.5
+To Kondhanpur: 59.5
+To Kusgaon: 55.8
+To Khed Shivapur: 50.3
+To Khadakwasla Dharan: 46.7
+To Ambegaon: 36.7
+To Rajas Society: 46.3
+To Katraj Ladies Special: 45.3
+To Shivajinagar Ladies Special: 44.2
+To Bhilarewadi: 35.2
+To Sachchai Mata Mandir: 38.5
+To Taljai Pathar: 38.6
+To Katraj Night Service: 45.3
+To Shivajinagar Night Service: 44.2
+To Pimprigaon: 25.9
+To Gavhanevasti Bhosari: 23.7
+To Mukai Chowk: 43.1
+To Akurdi Railway Station: 40.7
+To Dy Patil College Wadgaonmawal: 56.5
+To Navlakh Umbre: 60.5
+To Vadgaon Mawal: 56.5
+To Dange Chowk: 13.3
+To Walhekarwadi: 16.5
+To Gharkul Vasahat Chikhli: 24.2
+To Rautwadi: 61.6
+To Kasarsai Karkhana: 31.4
+To Chandkhed: 33.5
+To Mhalunge MIDC: 30
+To Moshigaon: 52.2
+To Pune Station (Vai Alandi Road): 42.2
+To Bhosari (Vai Alandi Road): 45.1
+To Dapodi: 36.4
+To Sambhajinagar: 29.8
+To Gharkul Vasahat Chikali: 52.2
+To Krishanagar: inf
+To Krushnanagar: 52.6
+To Mahalungegaon: 64
+To Pimpale Gurav: 21.8
+To Pimple Gurav: inf
+To Vasasantdada Putla Sangvi: 23.1
+To Chikhali: 26.3
+To Gharkul Vasahat Chikhali: 26.8
+To Masulkar Colony: 22.9
+To Rupeenagar: 37.5
+To Pune Station (Via Yarwada): 77
+To Dehugaon (Via Yarwada): 60.6
+To Pune Station (Via Wakdevadi): 76
+To Dehugaon (Via Wakdevadi): 59.6
+To Rahatnigaon: 29.7
+To Pimple Saudagar: 42.1
+To Jambe: 20.9
+To Indrayaninagar: 49.2
+To Santnagar MIDC Police Station: 59.2
+To Mohannagar: 48.6
+To Pimple Nilakh: 33.9
+To Thergaon: 45.9
+To Rajgurunagar: 51.3
+To YCM Hospital (Via Moshi): 49.5
+To YCM Hospital: 29.2
+To Alandi (Via Moshi): 45.2
+To Kiwalegaon: 45.2
+To Adarshnagar: 43.5
+To Bhapkar Petrol Pump: 44.7
+To Pune Station (Via Yerwada): 41.5
+To Bhakti Shakti (Via Yerwada): 49.3
+To Gharkul Vasahat: 53.4
+To Wakad pul: 10
+To Wakad Pul: inf
+To Warje Malwadi (Vai YCM): 50
+To Bhakti Shakti (Vai YCM): 64.6
+To Shewalwadi (Vai YCM): 54.5
+To Katraj (Vai YCM): 49.7
+To Nehrunagar Depo (Vai YCM): 56.9
+To Sambhajinagar (Vai YCM): 66.6
+To Saket Society: 46.7
+To Sangvi: 57
+To Sanaswadi Nandoshi: 57.3
+To Khanapur: 53.7
+To Sinhgad Paytha: 70
+To Sinhagad: 64.4
+To Dhayari Maruti Mandi: 48
+To Osade Phata: 60.6
+To Pandavnagar: 48.15
+To Shanipar: 40.65
+To Pandavnagar Senapati Bapat Road: 39.5
+To Niljyoti: 38
+To Tadiwala Road: 36.8
+To Ghulenagar: 56.2
+To Ghulenager: 45.3
+To Nasrapur: 62.5
+To Sangamwadi: 43.8
+To Sukhsagarnagar: 52.3
+To Kalyaninagar: 42
+To Agalambegaon: 62.6
+To Ghotawadegaon: 64.9
+To Shasakiya Vishramgruha Paudgaon: 72.2
+To Sheregaon: 77.5
+To Mugawade: 74.1
+To Aditya Garden City: 38.7
+To Popularnagar: 35.9
+To Cipla Center: 36.8
+To Kondhur Phata: 69.1
+To Sangrun: 60.1
+To Khothrud Stand: inf
+To Mohakarwadi: 47.2
+To Sutarwadi: inf
+To Deccan Gymkhana (Vai Bhagvatinagar): inf
+To Sutarwadi (Vai Bhagvatinagar): 56.2
+To Susgaon: 59.2
+To HMR Company: 56.7
+To Deccan Gymkhana (Vai Sai Chowk): inf
+To Sutarwadi (Vai Sai Chowk): 56.2
+To Balewadi Mhalunge Phata: 59.7
+To Medi Point: 42.1
+To Mhatobachi Alandi: 55.3
+To Ishanyanagari: 35.4
+To Kumbre park: 56.6
+To Gharkul Vasahat Warje: 62.3
+To Uruli Railway Station: 63.4
+To Police Ground: 35
+To MIT College: 46.2
+To Sainagar Mamurdi: 43
+To Dhayari Gaon: 39.8
+To D.Y. Patil Vidhypith Lohgaon: 44.3
+PS C:\Users\OM\OneDrive\Documents\GitHub\bus_routing_system>

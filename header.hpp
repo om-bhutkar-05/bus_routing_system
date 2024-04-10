@@ -1,5 +1,3 @@
-
-
 #include <vector>
 #include <iostream>
 #include <limits>
@@ -21,6 +19,7 @@ private:
     vector<vector<double>> adjMatrix;
 
 public:
+ int getNodeID(const string& placeName) const;
 vector<Node> getNodes() const { return nodes; }
     Graph(int vertices);
     void addEdge(int source, int destination, double weight);

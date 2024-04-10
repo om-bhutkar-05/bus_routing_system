@@ -1,6 +1,15 @@
 #include "header.hpp"
 #include <fstream>
+#include <algorithm> 
+#include <cctype> 
 
+string rm(string str) {
+    
+    str.erase(remove_if(str.begin(), str.end(), ::isspace), str.end());
+    transform(str.begin(), str.end(), str.begin(), ::tolower);
+
+    return str;
+}
 Graph::Graph(int vertices) {
     V = vertices;
     adjMatrix.resize(V, vector<double>(V, numeric_limits<double>::infinity()));
@@ -40,19 +49,16 @@ void Graph::populateFromJSON(const string& filename) {
     }
 }
 
-void Graph::printMatrix() {
-    cout << "Adjacency Matrix:" << endl;
-    for (int i = 0; i < V; ++i) {
-        cout << nodes[i].name << ":\t";
-        for (int j = 0; j < V; ++j) {
-            if (adjMatrix[i][j] == numeric_limits<double>::infinity())
-                cout << "INF ";
-            else
-                cout << adjMatrix[i][j] << " ";
+
+int Graph::getNodeID(const string& placeName) const {
+    for (const Node& node : nodes) {
+        if (rm(node.name) == rm(placeName)) {
+            return node.id;
         }
-        cout << endl;
     }
+    return -1;
 }
+
 
 vector<double> Graph::dijkstra(int source) {
     vector<double> distance(V, numeric_limits<double>::infinity());
