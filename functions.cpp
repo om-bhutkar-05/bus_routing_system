@@ -13,9 +13,9 @@ void Graph::addVertex(const string& id, const string& place_name, double latitud
         newVertex->place_name = place_name;
         newVertex->latitude = latitude;
         newVertex->longitude = longitude;
-        newVertex->distance = numeric_limits<double>::infinity(); // Initialize distance to infinity
-        newVertex->previous = ""; // Initialize previous vertex as empty string
-        newVertex->visited = false; // Initialize visited flag as false
+        newVertex->distance = numeric_limits<double>::infinity(); 
+        newVertex->previous = ""; 
+        newVertex->visited = false; 
         vertices[id] = newVertex;
     }
 }
