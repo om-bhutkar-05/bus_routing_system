@@ -1,38 +1,32 @@
-#include <iostream>
-#include <unordered_map>
-#include <list>
-#include <string>
-#include <queue>
-#include <limits>
 
+
+#include <vector>
+#include <iostream>
+#include <limits>
+#include <string>
+#include "json.hpp"
+
+using json = nlohmann::json;
 using namespace std;
 
-struct Vertex {
-    string id;
-    string place_name;
-    double latitude;
-    double longitude;
-    list<pair<string, double>> connections;
-    double distance; // Distance from the source vertex
-    string previous; // Previous vertex in the shortest path
-    bool visited;    // Flag to mark if the vertex has been visited
+struct Node {
+    int id;
+    string name;
 };
 
 class Graph {
 private:
-    unordered_map<string, Vertex*> vertices;
+    int V;
+    vector<Node> nodes;
+    vector<vector<double>> adjMatrix;
 
 public:
-    Graph();
-    ~Graph();
-    void addVertex(const string& id, const string& place_name, double latitude, double longitude);
-    void addEdge(const string& source, const string& destination, double weight);
-    Vertex* getVertex(const string& id);
-    string trim(const string& str);
-    bool compareIgnoreCase(const string& str1, const string& str2);
-    string getVertexIdByPlaceName(const string& placeName); // Declaration of the new method
-    void display();
-    void clear();
-    void dijkstra(const string& source);
-    list<string> shortestPath(const string& source, const string& destination);
+vector<Node> getNodes() const { return nodes; }
+    Graph(int vertices);
+    void addEdge(int source, int destination, double weight);
+    void populateFromJSON(const string& filename);
+    void printMatrix();
+    vector<double> dijkstra(int source);
 };
+
+
