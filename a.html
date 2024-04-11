@@ -5,21 +5,92 @@
     <title>Geolocation</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <style>
         body {
             margin: 0;
             padding: 0;
         }
-    </style>
 
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="map" style="width:100%; height: 100vh"></div>
+    <div class="container mt-3 my-2">
+        <form id="locationForm" action="http://localhost:3000/submit-location" method="GET">
+            <div class="row">
+                <div class="col">
+                    <div class="border p-3 mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="startingPoint" name="startingPoint" placeholder="Choose starting point">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border p-3 mb-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="destination" name="destination" placeholder="Choose destination">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <button class="btn btn-secondary" type="button" style="display: none;">Add destination</button>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+    <script>
+        // Function to parse URL parameters
+        function getUrlParams() {
+            const searchParams = new URLSearchParams(window.location.search);
+            const params = {};
+       
+            for(const [key, value] of searchParams) {
+                const pararray=key.split('?')
+                    params.startingPoint = pararray[0];
+                    params.destination = pararray[1];
+
+                
+            }
+            return params;
+        }
+
+        // Function to set input values based on URL parameters
+        function setInputValues() {
+            const params = getUrlParams();
+            if (params.startingPoint) {
+                document.getElementById('startingPoint').value = params.startingPoint;
+            }
+            if (params.destination) {
+                document.getElementById('destination').value = params.destination;
+            }
+        }
+
+        // Call setInputValues() when the page loads
+        setInputValues();
+    </script>
+    
+    <div id="map"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> <!-- Include Axios library for AJAX requests -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <script>
         var map = L.map('map').setView([28.2380, 83.9956], 11);
@@ -40,7 +111,7 @@
 
         // Fetch coordinates from latlng.txt and integrate with map
         axios.get('latlng.txt') // Assuming latlng.txt contains coordinates in the format: "lat:18.32332 long:73.32324 lat:18.33332 long:73.34324"
-            .then(function(response) {
+            .then(function (response) {
                 var coordinates = response.data.trim().split(/\s+/).filter(coord => coord.trim() !== "").map(coord => parseFloat(coord.split(":")[1]));
                 var sourceLat = coordinates[0];
                 var sourceLng = coordinates[1];
@@ -55,18 +126,18 @@
                         L.latLng(sourceLat, sourceLng),
                         L.latLng(destLat, destLng)
                     ]
-                }).on('routesfound', function(e) {
+                }).on('routesfound', function (e) {
                     var routes = e.routes;
                     console.log(routes);
 
-                    e.routes[0].coordinates.forEach(function(coord, index) {
-                        setTimeout(function() {
+                    e.routes[0].coordinates.forEach(function (coord, index) {
+                        setTimeout(function () {
                             marker.setLatLng([coord.lat, coord.lng]);
                         }, 100 * index)
                     })
                 }).addTo(map);
             })
-            .catch(function(error) {
+            .catch(function (error) {
                 console.error('Error reading file:', error);
             });
     </script>
