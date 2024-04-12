@@ -19,6 +19,7 @@ private:
     int V;
     vector<Node> nodes;
     vector<vector<double>> adjMatrix;
+     vector<int> previous;
 
 public:
  int getNodeID(const string& placeName) const;
@@ -27,7 +28,6 @@ vector<Node> getNodes() const { return nodes; }
     void addEdge(int source, int destination, double weight);
     void populateFromJSON(const string& filename);
     void printMatrix();
-    vector<double> dijkstra(int source);
+pair<vector<int>, double> dijkstraWithPath(int source, int destination);
+
 };
-
-

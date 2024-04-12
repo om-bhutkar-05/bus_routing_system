@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Map with Path</title>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+    rel="stylesheet"
+  />
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <style>
+    #map {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+    }
+    #floatingForm {
+    position: fixed;
+    top: 75%;
+    left: 10px; /* Adjust the left distance as per your preference */
+    transform: translateY(-50%);
+    width: 300px; /* Adjust the width as per your preference */
+    height: 250px; /* Adjust the height as per your preference */
+    background-color: rgb(73, 31, 31);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999; 
+}
+  </style>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <div class="container mt-3 my-2" id="floatingForm">
+    <form id="locationForm" action="http://localhost:3000/submit-location" method="GET">
+        <div class="row">
+            <div class="col">
+                <div class="border p-3 mb-3">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="startingPoint" name="startingPoint" placeholder="Choose starting point">
+                        </div>
+                    </div>
+                </div>
+                <div class="border p-3 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="destination" name="destination" placeholder="Choose destination">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <button class="btn btn-secondary" type="button" style="display: none;">Add destination</button>
+            </div>
+        </div>
+    </form>
+    
+</div>
+  <div id="map">
+
+  </div>
+<script>
+  axios.get('data.txt')
+  .then(response => {
+    const data = response.data;
+    const lines = data.split('\n');
+    const startingPoint = lines[0].split(': ')[1].trim();
+    const destination = lines[1].split(': ')[1].trim();
+    document.getElementById('startingPoint').value = startingPoint
+    document.getElementById('destination').value = destination;
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+</script>
+<script>
+mapboxgl.accessToken = "pk.eyJ1Ijoic29tc3ViaHJhMSIsImEiOiJja2hkbDhuNGcwNnZnMnNuMGkwcjU3d3UwIn0.ZAeP5aPO4JkxNGD7dIEZtw"; // Replace with your Mapbox access token
+var mid=[]
+
+axios.get('latlng.txt')
+    .then(function (response) {
+      var coordinates = response.data.trim().split(/\s+/).filter(coord => coord.trim() !== "");
+
+      var sourceLat = parseFloat(coordinates[0].split(":")[1]);
+      var sourceLng = parseFloat(coordinates[1].split(":")[1]);
+      var destLat = parseFloat(coordinates[coordinates.length - 2].split(":")[1]);
+      var destLng = parseFloat(coordinates[coordinates.length - 1].split(":")[1]);
+
+      var midpoints = [];
+      for (var i = 2; i < coordinates.length - 2; i += 2) {
+        var lat = parseFloat(coordinates[i].split(":")[1]);
+        var lng = parseFloat(coordinates[i + 1].split(":")[1]);
+        midpoints.push([lng, lat]);
+        mid=midpoints 
+      }
+
+      const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [73.7667, 18.9750], // Centered on Pune, India
+        zoom: 10 // Initial zoom level
+      });
+
+      // Create source and destination markers
+      const sourceMarker = new mapboxgl.Marker().setLngLat([sourceLng, sourceLat]).addTo(map);
+      const destinationMarker = new mapboxgl.Marker().setLngLat([destLng, destLat]).addTo(map);
+
+      // Create waypoints and add them to the directions plugin
+      const waypoints = midpoints.map((midpoint, index) => {
+        return {
+          coordinates: midpoint,
+          name: 'Waypoint ' + (index + 1)
+        };
+      });
+
+      const directions = new MapboxDirections({
+        accessToken: mapboxgl.accessToken,
+        unit: 'metric',
+        controls: { instructions: true, inputs: false }, 
+      });
+
+      map.addControl(directions, 'top-left');
+      directions.setOrigin([sourceLng, sourceLat]);
+      directions.setDestination([destLng, destLat]);
+      let j=0
+console.log("midd  "+mid)
+for(let i=0;i<mid.length;i++){
+  directions.addWaypoint(i, [mid[j], mid[j+1]]);
+  j+=2
+}
+    })
+    .catch(function (error) {
+      console.error('Error reading file:', error);
+    });
+
+
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>

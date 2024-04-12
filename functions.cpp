@@ -10,18 +10,21 @@ string rm(string str) {
 
     return str;
 }
-void writeLatLongToFile(const vector<Node>& nodes, int sourceID, int destID) {
+void writeLatLongToFile(const vector<Node>& nodes, const vector<int>& path) {
     ofstream outFile("latlng.txt");
 
     if (outFile.is_open()) {
-        outFile << "lat:" << nodes[sourceID - 1].lat << " long:" << nodes[sourceID - 1].lon <<" ";
-        outFile << "lat:" << nodes[destID - 1].lat << " long:" << nodes[destID - 1].lon << endl;
+        for (int nodeId : path) {
+            outFile << "lat:" << nodes[nodeId - 1].lat << " long:" << nodes[nodeId - 1].lon << " ";
+        }
+        outFile << endl;
         outFile.close();
-        cout << "Latitude and longitude written to lat_long.txt successfully." << endl;
+        cout << "Latitude and longitude for path nodes written to latlng.txt successfully." << endl;
     } else {
-        cerr << "Unable to open file 'lat_long.txt' for writing." << endl;
+        cerr << "Unable to open file 'latlng.txt' for writing." << endl;
     }
 }
+
 Graph::Graph(int vertices) {
     V = vertices;
     adjMatrix.resize(V, vector<double>(V, numeric_limits<double>::infinity()));
@@ -73,10 +76,10 @@ int Graph::getNodeID(const string& placeName) const {
     return -1;
 }
 
-
-vector<double> Graph::dijkstra(int source) {
+pair<vector<int>, double> Graph::dijkstraWithPath(int source, int destination)  {
     vector<double> distance(V, numeric_limits<double>::infinity());
     distance[source - 1] = 0;
+    previous.assign(V, -1);
 
     vector<bool> visited(V, false);
 
@@ -98,9 +101,23 @@ vector<double> Graph::dijkstra(int source) {
                 distance[minIndex] != numeric_limits<double>::infinity() &&
                 distance[minIndex] + adjMatrix[minIndex][v] < distance[v]) {
                 distance[v] = distance[minIndex] + adjMatrix[minIndex][v];
+                previous[v] = minIndex;
             }
         }
     }
 
-    return distance;
+  vector<int> path;
+    double totalWeight = 0.0;
+    int current = destination - 1;
+    while (current != -1) {
+        path.push_back(current + 1);
+        int prev = previous[current];
+        if (prev != -1) {
+            totalWeight += adjMatrix[prev][current];
+        }
+        current = prev;
+    }
+    reverse(path.begin(), path.end());
+
+    return make_pair(path, totalWeight);
 }

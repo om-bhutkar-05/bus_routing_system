@@ -39,8 +39,8 @@
         {
             "id": "7",
             "place_name": "Katraj",
-            "latitude": "18.4536792",
-            "longitude": "73.8563196"
+            "latitude": "18.45367",
+            "longitude": "73.85631"
         },
         {
             "id": "8",
@@ -52,7 +52,7 @@
             "id": "9",
             "place_name": "Swargate",
             "latitude": "18.49968545",
-            "longitude": "73.85688275180982"
+            "longitude": "73.85688275"
         },
         {
             "id": "10",
@@ -554,7 +554,7 @@
         },
         {
             "id": "93",
-            "place_name": "Lohgaon (Via Dhanori)",
+            "place_name": "Lohgaon",
             "latitude": "18.5945",
             "longitude": "73.9276"
         },

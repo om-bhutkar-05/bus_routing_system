@@ -1,31 +1,38 @@
 
-    #include <iostream>
-    #include "functions.cpp"
+  
+   
+  #include <iostream>
+  #include "functions.cpp"
 
-    using namespace std;
+  using namespace std;
+int main() {
+    Graph graph(297);
+    graph.populateFromJSON("assets/routes2.json");
 
-    int main() {
-        Graph graph(297);
-        graph.populateFromJSON("assets/routes2.json");
+    string p1 = "katraj";
+    string p2 = "Gharkul Vasahat";
 
-        string p1 = "manapa";
-        string p2 = "hinjawadi maan phase 3";
+    p1 = rm(p1);
+    p2 = rm(p2);
 
-        p1 = rm(p1);
-        p2 = rm(p2);
+    int source = graph.getNodeID(p1);
+    int destination = graph.getNodeID(p2);
+    pair<vector<int>, double> result = graph.dijkstraWithPath(source, destination);
+    vector<int> path = result.first;
+    double totalWeight = result.second;
 
-        int source = graph.getNodeID(p1);
-        int destination = graph.getNodeID(p2);
-        vector<double> shortestDistances = graph.dijkstra(source);
-        vector<Node> nodes = graph.getNodes();
-        writeLatLongToFile(nodes, source, destination);
-        if (shortestDistances[destination - 1] == numeric_limits<double>::infinity()) {
-            cout << "No path exists between the source and destination nodes." << endl;
-        } else {
-            cout << "Shortest distance from node " << source << " to node " << destination << ": ";
-            cout << shortestDistances[destination - 1] << endl;
-        }
-
-        return 0;
+    cout << "Shortest path from node " << source << " to node " << destination << ": ";
+    for (int node : path) {
+        cout << "->" << node ;
     }
+    cout << endl;
+
+    cout << "Total weight of edges in the path: " << totalWeight << endl;
+
+    vector<Node> nodes = graph.getNodes();
+    writeLatLongToFile(nodes, path); 
+
+    return 0;
+}
+
   
