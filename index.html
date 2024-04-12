@@ -94,7 +94,15 @@
 mapboxgl.accessToken = "pk.eyJ1Ijoic29tc3ViaHJhMSIsImEiOiJja2hkbDhuNGcwNnZnMnNuMGkwcjU3d3UwIn0.ZAeP5aPO4JkxNGD7dIEZtw"; // Replace with your Mapbox access token
 var mid=[]
 
-axios.get('latlng.txt')
+axios.get('data.txt')
+  .then(response => {
+    // Code to set starting point and destination...
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+
+  axios.get('latlng.txt')
     .then(function (response) {
       var coordinates = response.data.trim().split(/\s+/).filter(coord => coord.trim() !== "");
 
@@ -108,7 +116,7 @@ axios.get('latlng.txt')
         var lat = parseFloat(coordinates[i].split(":")[1]);
         var lng = parseFloat(coordinates[i + 1].split(":")[1]);
         midpoints.push([lng, lat]);
-        mid=midpoints 
+        mid=midpoints
       }
 
       const map = new mapboxgl.Map({
@@ -122,7 +130,12 @@ axios.get('latlng.txt')
       const sourceMarker = new mapboxgl.Marker().setLngLat([sourceLng, sourceLat]).addTo(map);
       const destinationMarker = new mapboxgl.Marker().setLngLat([destLng, destLat]).addTo(map);
 
-      // Create waypoints and add them to the directions plugin
+      // Create markers for midpoints
+      midpoints.forEach(midpoint => {
+        new mapboxgl.Marker().setLngLat(midpoint).addTo(map);
+      });
+
+      // Create waypoints for directions plugin
       const waypoints = midpoints.map((midpoint, index) => {
         return {
           coordinates: midpoint,
@@ -134,6 +147,7 @@ axios.get('latlng.txt')
         accessToken: mapboxgl.accessToken,
         unit: 'metric',
         controls: { instructions: true, inputs: false }, 
+
       });
 
       map.addControl(directions, 'top-left');
@@ -145,11 +159,11 @@ for(let i=0;i<mid.length;i++){
   directions.addWaypoint(i, [mid[j], mid[j+1]]);
   j+=2
 }
+
     })
     .catch(function (error) {
       console.error('Error reading file:', error);
     });
-
 
 </script>
 

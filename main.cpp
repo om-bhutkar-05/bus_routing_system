@@ -9,8 +9,8 @@ int main() {
     Graph graph(297);
     graph.populateFromJSON("assets/routes2.json");
 
-    string p1 = "katraj";
-    string p2 = "Gharkul Vasahat";
+    string p1 = "pimple gurav";
+    string p2 = "swargate";
 
     p1 = rm(p1);
     p2 = rm(p2);
