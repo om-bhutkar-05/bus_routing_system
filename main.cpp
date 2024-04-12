@@ -8,8 +8,8 @@
         Graph graph(297);
         graph.populateFromJSON("assets/routes2.json");
 
-        string p1 = "swargate";
-        string p2 = "vimannagar";
+        string p1 = "manapa";
+        string p2 = "hinjawadi maan phase 3";
 
         p1 = rm(p1);
         p2 = rm(p2);
