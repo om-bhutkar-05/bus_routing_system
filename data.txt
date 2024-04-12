@@ -1,2 +1,2 @@
-Starting Point: hinjawadimaanphase3
-Destination: swargate
+Starting Point: swargate
+Destination: vimannagar
