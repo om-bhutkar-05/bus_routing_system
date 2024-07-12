@@ -32,7 +32,7 @@
         var taxiIcon = L.icon({
             iconUrl: 'assets/taxi.png',
             iconSize: [40, 40]
-        })
+        });
 
         var marker = L.marker([28.2380, 83.9956], {
             icon: taxiIcon
@@ -68,6 +68,14 @@
             })
             .catch(function(error) {
                 console.error('Error reading file:', error);
+            });
+
+        axios.get('http://localhost:3000/run-cpp')
+            .then(function(response) {
+                console.log('C++ program output:', response.data);
+            })
+            .catch(function(error) {
+                console.error('Error calling server:', error);
             });
     </script>
 </body>
